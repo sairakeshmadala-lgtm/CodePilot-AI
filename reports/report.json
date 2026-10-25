@@ -1,0 +1,21 @@
+{
+  "tool": "CodePilot AI",
+  "total_findings": 1,
+  "summary": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "findings": [
+    {
+      "rule": "SEC001",
+      "severity": "warning",
+      "line": 3,
+      "message": "Use of eval() may execute untrusted expressions.",
+      "suggested_fix": {
+        "title": "Avoid eval()",
+        "suggestion": "Avoid eval() on untrusted input. Use explicit operations or a safe parser.",
+        "severity": "warning"
+      }
+    }
+  ]
+}

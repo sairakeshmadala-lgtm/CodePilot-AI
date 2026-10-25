@@ -1,0 +1,7 @@
+def calculate_total(price, quantity):
+    total = eval("price * quantity")
+    return total
+
+
+def greet():
+    print("Hello, CodePilot AI!")
